@@ -1,0 +1,27 @@
+{
+  "name": "job-analysis-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "apexcharts": "^4.5.0",
+    "axios": "^1.8.1",
+    "csv-stringify": "^6.5.2",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.9.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.5.0",
+    "vue3-apexcharts": "^1.8.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "unplugin-auto-import": "^19.1.1",
+    "unplugin-vue-components": "^28.4.1",
+    "vite": "^4.4.9"
+  }
+}

@@ -1,0 +1,67 @@
+/* 公共样式文件 */
+
+/* 卡片样式 */
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 图表容器样式 */
+.chart {
+  height: 400px;
+  width: 100%;
+}
+
+/* 图表行间距 */
+.chart-row {
+  margin-top: 20px;
+}
+
+/* 数据卡片样式 */
+.data-card .card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.data-card h2 {
+  font-size: 28px;
+  color: #409EFF;
+  margin: 0;
+}
+
+/* 操作区域样式 */
+.action-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* 状态文本样式 */
+.status-text {
+  color: #606266;
+  font-size: 14px;
+}
+
+/* 页面容器通用样式 */
+.page-container {
+  padding: 20px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .chart {
+    height: 300px;
+  }
+  
+  .data-card .card-content {
+    height: 60px;
+  }
+  
+  .data-card h2 {
+    font-size: 22px;
+  }
+}
